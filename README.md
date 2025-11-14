@@ -1,9 +1,9 @@
-bolajiVerse-web
+### **bolajiVerse-web**
 
 bolajiVerse-web is the frontend of BolajiVerse, a modern fashion e-commerce platform designed to showcase stylish products, smooth shopping experiences, and a refined user interface.
 This repository contains the full frontend codebase built with Next.js, focused on providing a fast, secure, and responsive shopping experience.
 
-🚀 Project Overview
+🚀 ### **Project Overview**
 
 BolajiVerse is a full-stack fashion web store created as part of a portfolio development project.
 The frontend (bolajiVerse-web) is responsible for:
@@ -22,7 +22,7 @@ Optimizing images, SEO metadata, and page performance
 
 This project emphasizes scalability, performance, and developer best practices, making it a strong portfolio piece to demonstrate full-stack skills.
 
-🧰 Tech Stack
+🧰 ### **Tech Stack**
 Frontend Framework
 
 Next.js (React 18) – App Router, Server Components, File-based routing
@@ -73,7 +73,7 @@ Husky + lint-staged – Pre-commit hooks
 
 GitHub Actions (optional) – CI/CD pipeline
 
-📁 Project Structure (high-level)
+📁 ### **Project Structure (high-level)**
 bolajiVerse-web/
 │
 ├── app/          # Next.js App Router pages
@@ -84,7 +84,7 @@ bolajiVerse-web/
 ├── styles/       # Global styles
 └── tests/        # Jest + RTL tests
 
-🔧 Getting Started
+🔧 ### **Getting Started**
 Clone the repo
 git clone https://github.com/<your-username>/bolajiVerse-web.git
 cd bolajiVerse-web
