@@ -27,7 +27,7 @@ Frontend Framework
 
 Next.js (React 18) – App Router, Server Components, File-based routing
 
-TypeScript (optional — add if you're using it)
+TypeScript
 
 Styling & UI
 
