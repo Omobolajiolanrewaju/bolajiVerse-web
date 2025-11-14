@@ -51,7 +51,7 @@ API Communication
 
 REST API integration via backend (bolajiVerse-api)
 
-Fetch or Axios (depending on setup)
+Axios
 
 Images
 
