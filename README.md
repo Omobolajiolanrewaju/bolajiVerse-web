@@ -1,95 +1,93 @@
-# bolajiVerse-web
-Frontend codebase for BolajiVerse — a modern fashion e-commerce platform built with Next.js, Tailwind CSS, and NextAuth. Handles all user-facing features including product browsing, authentication, cart management, and checkout UI.
+bolajiVerse-web
 
+bolajiVerse-web is the frontend of BolajiVerse, a modern fashion e-commerce platform designed to showcase stylish products, smooth shopping experiences, and a refined user interface.
+This repository contains the full frontend codebase built with Next.js, focused on providing a fast, secure, and responsive shopping experience.
 
-# **README.md — bolajiVerse-web**
+🚀 Project Overview
 
-```markdown
-# bolajiVerse-web
+BolajiVerse is a full-stack fashion web store created as part of a portfolio development project.
+The frontend (bolajiVerse-web) is responsible for:
 
-bolajiVerse-web is the frontend of **BolajiVerse**, a modern fashion e-commerce platform designed to showcase stylish products, smooth shopping experiences, and a refined user interface.  
-This repository contains the full frontend codebase built with **Next.js** and focused on providing a fast, secure, and responsive shopping experience.
+Displaying product catalogs, product pages, and categories
 
----
+Handling all user-facing interactions (auth, cart, checkout)
 
-## 🚀 Project Overview
+Providing a clean and responsive UI built with modern React patterns
 
-BolajiVerse is a full-stack fashion web store created as part of a portfolio development project.  
-The **frontend (bolajiVerse-web)** is responsible for:
+Seamlessly communicating with the backend API
 
-- Displaying product catalogs, product pages, and categories  
-- Handling all user-facing interactions (auth, cart, checkout)  
-- Providing a clean and responsive UI built with modern React patterns  
-- Seamlessly communicating with the backend API  
-- Supporting authenticated user flows via NextAuth  
-- Optimizing images, SEO metadata, and page performance
+Supporting authenticated user flows via NextAuth
 
-This project emphasizes **scalability**, **performance**, and **developer best practices**, making it a strong portfolio piece to demonstrate full-stack skills.
+Optimizing images, SEO metadata, and page performance
 
----
+This project emphasizes scalability, performance, and developer best practices, making it a strong portfolio piece to demonstrate full-stack skills.
 
-## 🧰 Tech Stack
+🧰 Tech Stack
+Frontend Framework
 
-### **Frontend Framework**
-- **Next.js (React 18)** – App Router, Server Components, File-based routing  
-- **TypeScript** *(optional — add if you're using it)*
+Next.js (React 18) – App Router, Server Components, File-based routing
 
-### **Styling & UI**
-- **Tailwind CSS** – Utility-first responsive styling  
-- **Reusable UI components** (custom components library)  
-- **CSS Modules / ShadCN UI** *(if included)*  
+TypeScript (optional — add if you're using it)
 
-### **State Management**
-- **Zustand** or **React Context** for cart + UI state  
+Styling & UI
 
-### **Authentication**
-- **NextAuth.js** – Secure OAuth + Credentials authentication  
-- Session handling on both client and server routes
+Tailwind CSS – Utility-first responsive styling
 
-### **API Communication**
-- **REST API integration** via backend (`bolajiVerse-api`)  
-- Fetch + Axios (depending on chosen setup)  
+Reusable UI components (custom components library)
 
-### **Images**
-- **Cloudinary** for optimized image delivery  
-- Next.js `<Image />` for responsive image optimization  
+CSS Modules / ShadCN UI (if included)
 
-### **Testing**
-- **Jest** – Unit and component testing  
-- **React Testing Library** – UI behavior testing  
+State Management
 
-### **Additional Tooling**
-- **ESLint + Prettier** – Code formatting & linting  
-- **Husky + lint-staged** – Pre-commit hooks  
-- **GitHub Actions (optional)** – CI/CD pipeline
+Zustand or React Context for cart + UI state
 
----
+Authentication
 
-## 📁 Project Structure (high-level)
+NextAuth.js – Secure OAuth + Credentials authentication
 
-```
+Session handling on both client and server routes
 
+API Communication
+
+REST API integration via backend (bolajiVerse-api)
+
+Fetch or Axios (depending on setup)
+
+Images
+
+Cloudinary for optimized image delivery
+
+Next.js <Image /> for responsive image optimization
+
+Testing
+
+Jest – Unit and component testing
+
+React Testing Library – UI behavior testing
+
+Additional Tooling
+
+ESLint + Prettier – Code formatting & linting
+
+Husky + lint-staged – Pre-commit hooks
+
+GitHub Actions (optional) – CI/CD pipeline
+
+📁 Project Structure (high-level)
 bolajiVerse-web/
 │
-├── app/                    # Next.js App Router pages
-├── components/             # Reusable UI + layout components
-├── context/                # Cart/User context or Zustand stores
-├── lib/                    # API utils, helpers, config
-├── public/                 # Static assets
-├── styles/                 # Global styles
-└── tests/                  # Jest + RTL tests
+├── app/          # Next.js App Router pages
+├── components/   # Reusable UI + layout components
+├── context/      # Cart/User context or Zustand stores
+├── lib/          # API utils, helpers, config
+├── public/       # Static assets
+├── styles/       # Global styles
+└── tests/        # Jest + RTL tests
 
-````
-
----
-
-## 🔧 Getting Started
-
-### **Clone the repo**
-```bash
+🔧 Getting Started
+Clone the repo
 git clone https://github.com/<your-username>/bolajiVerse-web.git
 cd bolajiVerse-web
-````
 
 ### **Install dependencies**
 
